@@ -5,7 +5,7 @@
 }
 
 #leftnav{
-	height: 10000px;
+	height: auto;
 	/* [disabled]height: auto; */
 	width: 308px;
 	position: fixed;
@@ -13,7 +13,7 @@
 	top: 0;
 	left: 0;
 	overflow-x: hidden;
-	box-shadow: 1px 1px 10px gray;	
+
 }
 
 #sidenav{
