@@ -240,9 +240,9 @@ font-family: roboto;
 	font-family: roboto;
 }
 
-#rowBottom{
+#rowBottom, #rowBottom1{
 	clear: both;
-	padding: 5px;
+	padding: 5%;
 	border-top-width: 1px;
 	border-top-style: solid;
 	border-top-color: gray;
