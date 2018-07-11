@@ -66,6 +66,17 @@ nav li a.current{
 	margin-left: -18px
 	
 }
+
+nav li a:hover{
+	
+	color: white;
+	background-color: #3D4B72;
+	padding-left: 20px;
+	padding-right: 150px; 
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: -18px
+}
 nav{
 	margin-left: 45px;
 	
@@ -232,6 +243,19 @@ font-family: roboto;
 
 }
 
+#files a{
+background-color: #3D4B72;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+	width: 200px; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+#files a:hover{
+    background-color:#1E1F32;
+}
 
 @font-face{
 	font-family: roboto; 
