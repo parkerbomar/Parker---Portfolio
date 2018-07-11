@@ -129,16 +129,7 @@ main{
 	text-decoration: none;
 }
 
-.hero-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-	font-family: roboto;
-	font-weight: bold;
-}
+
 
 .hero1-image {
  background-image:url(assets/fitlock.jpg);
@@ -150,15 +141,7 @@ main{
 	margin-bottom: 10px;
 }
 
-.hero1-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-	font-family: roboto;
-}
+
 
 .hero2-image {
  background-image:url(assets/cumberland.jpg);
@@ -168,18 +151,7 @@ main{
     background-size: cover;
     position: relative;
 	margin-bottom: 10px;
-}
 
-.hero2-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-	font-family: roboto;
-
-	 
 }
 .hero3-image {
  background-image:url(assets/race.jpg);
@@ -191,21 +163,7 @@ main{
 	margin-bottom: 10px;
 }
 
-#hoverimg:hover{
-	
-	opacity: .7;
-}
-#hoverimg1:hover{
-	
-	opacity: .7;
-}
-#hoverimg2:hover{
-	
-	opacity: .7;
-}
-
-
-.hero3-text {
+.hero2-text, .hero1-text, .hero-text,.hero3-text {
   text-align: center;
   position: absolute;
   top: 50%;
@@ -213,7 +171,17 @@ main{
   transform: translate(-50%, -50%);
   color: white;
 	font-family: roboto;
+
 }
+
+
+#hoverimg:hover, #hoverimg1:hover, #hoverimg2:hover{
+	
+	opacity: .7;
+}
+
+
+
 
 #maincontent{
 	padding-top: 20px;
