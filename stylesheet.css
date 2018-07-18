@@ -163,8 +163,17 @@ main{
     position: relative;
 	margin-bottom: 10px;
 }
+.hero4-image {
+ background-image:url(assets/villageburger.jpg);
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+	margin-bottom: 10px;
+}
 
-.hero2-text, .hero1-text, .hero-text,.hero3-text {
+.hero2-text, .hero1-text, .hero-text,.hero3-text,.hero4-text {
   text-align: center;
   position: absolute;
   top: 50%;
@@ -176,7 +185,7 @@ main{
 }
 
 
-#hoverimg:hover, #hoverimg1:hover, #hoverimg2:hover{
+#hoverimg:hover, #hoverimg1:hover, #hoverimg2:hover , #hoverimg3:hover{
 	
 	opacity: .7;
 }

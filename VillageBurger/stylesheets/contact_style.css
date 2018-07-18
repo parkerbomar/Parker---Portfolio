@@ -1,0 +1,227 @@
+/* CSS Document */
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body{
+  
+	position: relative;
+  margin: 0;
+  padding-bottom: 1rem;
+  min-height: 100%;
+}
+
+
+.page_header{
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	background: #C14E4E;
+	top: 0;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	text-align: right;
+	
+	
+}
+.bellownav{
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	background: #C14E4E;
+	top: 0;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	text-align: right;
+	margin-bottom: 50px;
+	
+	
+}
+
+
+/********** Nav **********/
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding-left: 20px;
+    overflow: hidden;
+   background: #ffffff;
+    top: 2;
+    width: 100%;
+	z-index: 3;
+font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	
+
+}
+
+li {
+   float: left;
+}
+li a {
+    display: block;
+    color: #333;
+    text-align: center;
+	padding: 30px;
+   text-decoration: none;
+	margin-bottom: -25px;
+}
+li a:hover:not(.active) {
+   color: #C14E4E;
+}
+
+li a.active {
+   color: #C14E4E;
+}
+
+
+li a.image{
+	padding-left: .5rem;
+	padding-top: .5rem;
+	padding-right: 50px;
+	margin-right: 1.5rem;
+}
+
+
+.button {
+    background-color: #8DCFE2; 
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    font-size: 16px;
+    margin: -20px 20px;
+    cursor: pointer;
+	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+.button:hover{
+    background-color: #C14E4E; 
+  
+}
+/********** Main page **********/
+
+main {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 50px;
+	padding: 0px;
+	background: white;
+	width: 60%;
+	 font-family: 'Open Sans', sans-serif;
+
+}
+
+h2{
+	 color: #C14E4E;
+  font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	
+}
+p {
+  color: #2B2B2B;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+	
+}
+
+/********** Form **********/
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+	 font-family: 'Open Sans', sans-serif;
+	
+}
+select {
+  
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+	 font-family: 'Open Sans', sans-serif;
+	
+	
+}
+input[type=submit] {
+    background-color: #8DCFE2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	 font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+
+input[type=submit]:hover {
+    background-color: #C14E4E;
+}
+
+.contactus {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+	margin-bottom: 100px;
+}
+
+
+/********** FOOTER **********/
+.footer{
+  background:#8DCFE2;
+  color:#fff;
+	 margin:auto;
+  text-align:center;
+	 padding-top:10px; 
+	padding-bottom: 10px;
+position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+	
+}
+.alignleft {
+	font-size: 15px;
+	color: white;
+	float: left;
+margin: auto;
+	
+	width: 220px;
+}
+.alignright {
+	font-size: 15px;
+	color: white;
+	float: right;
+	margin: auto;
+	
+		width: 220px;
+	padding-right: 20px;
+}
+
+
+/* CSS Document */
+
+/* CSS Document */
+
