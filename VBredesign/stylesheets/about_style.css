@@ -106,6 +106,10 @@ li a.image{
 	border-radius: 5px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
+	-webkit-transition-property:background;
+	-webkit-transition-duration: .7s;
+	-webkit-transition-timing-function: ease;
+	
 }
 .button:hover{
     background-color: #C14E4E; 
