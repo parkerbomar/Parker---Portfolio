@@ -5,7 +5,8 @@
 
 
 body {
-    font-family: "Lato", sans-serif;
+   font-family: "roboto";
+	
 	
 }
 
@@ -51,7 +52,10 @@ body {
     margin-left: 50px;
 }
 
-
+.sidesideside{
+	
+	margin-left: 20px;
+}
 
 
 
