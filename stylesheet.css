@@ -344,12 +344,16 @@ a:hover{
 	
 	}
 	#columnLeft img {
-		width: 300px;
-		height: 200px;
+		width: 80%;
+		height: 80%;
 		
 	}
 	
-	#columnRight{
+	#columnRight {
+		width: 100%;
+	}
+	
+	#columnLeft{
 		width: 100%;
 	}
 	
