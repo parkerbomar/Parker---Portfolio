@@ -9,13 +9,39 @@
 </head>
 
 <body>
+	
+	<div class="sidesideside">  
+	<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<a class="current">ABOUT</a>
+	 <a href="Portfolio.html">PORTFOLIO</a>
+	 <a href="RESUME.pdf"  target="blank">RESUME</a>
+</div>
+
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+    document.body.style.backgroundColor = "white";
+}
+</script>
+	
+		</div>
 	<div id="shell">
 		
-	 
-		
-	
-		
-		<div id="leftnav">
+
+		<div class="mobile_hide">
+		<div id="leftnav" class="mobilehide">
 	  <div id="sidenav">
 			<h1><img src="assets/PBlogo.png" width="155" height="183" alt=""/></h1>
 			<h1>Parker Bomar</h1>
@@ -26,10 +52,9 @@
 	
 <nav>
   <ul>
-	  <li><a href="index.html">ABOUT</a></li>  
+	  <li><a class="current">ABOUT</a></li>  
 	<li> <a href="Portfolio.html">PORTFOLIO</a></li> 
-	<li> <a href="RESUME.pdf" target="blank">RESUME</a></li>
-	  <li> <a class="current" >FITLOCK</a></li>
+	<li> <a href="RESUME.pdf"  target="blank">RESUME</a></li>
 	
   </ul>
 	  <br>
@@ -44,9 +69,10 @@
 
 	
 </nav>
+			</div>
 	</div>
 	
-		
+		<div class="maintest">	
 	<main>
 		
 		<div class="hero1-image">
@@ -110,7 +136,7 @@
 		</div>
 		</main>
 		
-		
+	</div>
 </div>
 </body>
 </html>
