@@ -273,7 +273,7 @@ padding:10px;
 }
 #columnLeft{
 float: left;
-	width: 50%;
+	width: 60%;
 	display: block;
 	padding: 5px;
 font-family: roboto;
@@ -284,6 +284,7 @@ font-family: roboto;
 	width: 30%;
 	display: block;
 	padding: 5px;
+
 	
 	
 	font-family: roboto;
