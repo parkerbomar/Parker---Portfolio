@@ -54,10 +54,19 @@ body {
 
 .sidesideside{
 	
-	margin-left: 20px;
+	margin-top: -20px;
+	margin-left: -10px;
+	background: #3D4B72;
+	padding: 5px;
+	position: fixed;
+	z-index: 3;
+	width: 100%;
+	color: white;
 }
 
-
+.openbtn{
+	margin-left: 20px;
+}
 
 
 #shell{
@@ -331,8 +340,24 @@ a:hover{
 	
 	.maintest {margin-left: 0px;
 		margin-right: 0;
+		padding-top: 7%;
 	
 	}
+	#columnLeft img {
+		width: 300px;
+		height: 200px;
+		
+	}
+	
+	#columnRight{
+		width: 100%;
+	}
+	
+	 .hero2-text img {
+		
+		width: 90px;
+	}
+	
 }
 
 @media only screen and (min-width: 601px) {
