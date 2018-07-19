@@ -274,9 +274,7 @@ background-color: rgba(0,0,0,0.8);
 	margin-bottom: 10px;
 }
 
-.test{
-	
-}
+
 
 /********** Menu info **********/
 .menu-section {
@@ -359,5 +357,12 @@ margin: auto;
 }
 
 
+.dropaccord h2{
+	
+	
+		 font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	background: #FFFFFF;
+}
 /* CSS Document */
 

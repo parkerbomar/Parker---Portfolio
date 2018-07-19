@@ -5,6 +5,7 @@
 <title>Village Burger - Menu</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="stylesheets/Menu_style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 
 <body>
@@ -64,10 +65,12 @@ using JQuery and adding css for buttons -->
     <p>Fresh Certified Angus Beef. All burgers are cooked to medium well and served on a fresh white or wheat bun. </p>
   </div>
 </div>
-			
-			<div class="test">
-		<h2>Burgers</h2>	
-  	<div class="column left">
+			<div class="dropaccord">
+			<button onclick="myFunction('Demo3')" class="w3-btn w3-block w3-white">
+			<h2>Burgers</h2></button></div>
+
+<div id="Demo3" class="w3-hide w3-container w3-center w3-#FFFFFF w3-animate-opacity">
+  <p><div class="column left">
     
 		<!-- Menu starts -->
 		<div class="selection">	
@@ -223,9 +226,18 @@ Seasoned charbroiled or fried chicken breast. Served with your choice of topping
 		
 			<!-- Menu end -->
     
+</div></p>
 </div>
-			</div>
-			   <div class="menuhead"><h2>Extras</h2></div>
+	<br>
+	
+			
+  	<div class="dropaccord">
+			<button onclick="myFunction('Demo4')" class="w3-btn w3-block w3-white">
+			<h2>Extras</h2></button></div>
+
+<div id="Demo4" class="w3-hide w3-container w3-center w3-#FFFFFF w3-animate-opacity">
+			
+			   
 			
   	<div class="column left">
     
@@ -455,10 +467,18 @@ Dress it your way!
 			<!-- Menu end -->
     
 </div>
-			
+	</div>
+			<br>
+	
+	 	<div class="dropaccord">
+			<button onclick="myFunction('Demo5')" class="w3-btn w3-block w3-white ">
+			<h2>Toppings</h2></button></div>
+
+<div id="Demo5" class="w3-hide w3-container w3-center w3-#FFFFFF w3-animate-opacity">
+	
 			<div class="menuintro">
   <div class="intro">
-    <h2>Toppings</h2>
+    
     <p>Free Toppings: Lettuce, tomato, pickles, relish, raw or grilled onions, jalapeños, green pepper, sauerkraut; Sauces: Ketchup, mustard, spicy mustard, mayo, steak, barbecue, hot sauce, VB sauce; Extra Toppings: Bacon $1.25, Chili, Cole Slaw, Avocado, Mushrooms $1</p>
 	  
 	  	
@@ -467,6 +487,7 @@ Dress it your way!
 				
 				
 </div>
+	</div>
 			
 	</div>
 	<div class="orderonline">
@@ -501,6 +522,16 @@ Dress it your way!
   </section>
 
 <!-- scripts-->
+	<script>
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
 <script type="text/javascript" src="Scripts/jquery.js"></script>
 <script type="text/javascript" src="Scripts/slider.js"></script>
 
