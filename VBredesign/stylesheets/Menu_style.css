@@ -4,6 +4,7 @@
 html {
   height: 100%;
   box-sizing: border-box;
+	
 }
 
 
@@ -19,6 +20,9 @@ body{
   margin: 0;
   padding-bottom: 1rem;
   min-height: 100%;
+	line-height: normal!important;
+	font-size: 16px!important;
+	
 }
 
 
@@ -65,6 +69,7 @@ ul {
 font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	
+	
 
 }
 
@@ -88,11 +93,13 @@ li a.active {
 }
 
 
-li a.image{
+li a.imageer{
 	padding-left: .5rem;
 	padding-top: .5rem;
 	padding-right: 50px;
 	margin-right: 1.5rem;
+ 
+
 }
 
 
@@ -115,6 +122,11 @@ li a.image{
 .button:hover{
     background-color: #C14E4E; 
   
+}
+
+img {
+	margin-bottom: 0!important;
+	vertical-align: baseline!important;
 }
 /********** Main page **********/
 
