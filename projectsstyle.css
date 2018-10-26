@@ -168,8 +168,57 @@ padding:10px;
 	opacity: 0.5;
 }
 
+/* image gallery */
+div.gallery {
+    border: 1px solid #ccc;
+}
 
-.maintest{
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* image gallery end */
+
+.maintest{ 
 
 
 	height: auto;
@@ -181,16 +230,7 @@ padding:10px;
 
 
 
-.hero-image {
-	
-    background-image:url(assets/2H3A5722.jpg);
-	
-    height: 350px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
+
 
 .hero-text h1{
 	font-size: 40px;
@@ -203,46 +243,7 @@ padding:10px;
 
 
 
-.hero1-image {
- background-image:url(assets/fitlock.jpg);
-    height: 350px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-	margin-bottom: 10px;
-}
 
-
-
-.hero2-image {
- background-image:url(assets/cumberland.jpg);
-    height: 350px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-	margin-bottom: 10px;
-
-}
-.hero3-image {
- background-image:url(assets/race.jpg);
-    height: 350px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-	margin-bottom: 10px;
-}
-.hero4-image {
- background-image:url(assets/villageburger.jpg);
-    height: 350px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-	margin-bottom: 10px;
-}
 .hero5-image {
  background-image:url(assets/arches.jpg);
     height: 350px;
@@ -252,7 +253,7 @@ padding:10px;
     position: relative;
 	margin-bottom: 10px;
 }
-.hero2-text, .hero1-text, .hero-text,.hero3-text,.hero4-text,.hero5-text {
+.hero5-text {
   text-align: center;
   position: absolute;
   top: 50%;
@@ -264,7 +265,7 @@ padding:10px;
 }
 
 
-#hoverimg:hover, #hoverimg1:hover, #hoverimg2:hover , #hoverimg3:hover, #hoverimg5:hover{
+#hoverimg5:hover{
 	
 	opacity: .7;
 }
@@ -273,9 +274,9 @@ padding:10px;
 
 
 #maincontent{
-	padding-top: 20px;
-	padding-right: 30px;
-	padding-left: 30px;
+	padding-top: 50px;
+	padding-right: 10%;
+	padding-left: 10%;
 	padding-bottom: 30px;
 
 }
@@ -341,7 +342,7 @@ a:hover{
   }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 769px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 	.mobilehide {display:none;}
@@ -373,6 +374,7 @@ a:hover{
 	
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 769px) {
 	.sidesideside {display: none;}
-}
+}/* CSS Document */
+
