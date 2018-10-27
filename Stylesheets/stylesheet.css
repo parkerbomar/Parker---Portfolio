@@ -183,7 +183,7 @@ padding:10px;
 
 .hero-image {
 	
-    background-image:url(assets/2H3A5722.jpg);
+    background-image:url(../assets/2H3A5722.jpg);
 	
     height: 350px;
     background-position: center;
@@ -204,7 +204,7 @@ padding:10px;
 
 
 .hero1-image {
- background-image:url(assets/fitlock.jpg);
+ background-image:url(../assets/fitlock.jpg);
     height: 350px;
     background-position: center;
     background-repeat: no-repeat;
@@ -216,7 +216,7 @@ padding:10px;
 
 
 .hero2-image {
- background-image:url(assets/cumberland.jpg);
+ background-image:url(../assets/cumberland.jpg);
     height: 350px;
     background-position: center;
     background-repeat: no-repeat;
@@ -226,7 +226,7 @@ padding:10px;
 
 }
 .hero3-image {
- background-image:url(assets/race.jpg);
+ background-image:url(../assets/race.jpg);
     height: 350px;
     background-position: center;
     background-repeat: no-repeat;
@@ -235,7 +235,7 @@ padding:10px;
 	margin-bottom: 10px;
 }
 .hero4-image {
- background-image:url(assets/villageburger.jpg);
+ background-image:url(../assets/villageburger.jpg);
     height: 350px;
     background-position: center;
     background-repeat: no-repeat;
@@ -244,7 +244,7 @@ padding:10px;
 	margin-bottom: 10px;
 }
 .hero5-image {
- background-image:url(assets/arches.jpg);
+ background-image:url(../assets/arches.jpg);
     height: 350px;
     background-position: center;
     background-repeat: no-repeat;
@@ -324,14 +324,14 @@ background-color: #3D4B72;
 
 @font-face{
 	font-family: roboto; 
-src: url(assets/Font/Roboto-Regular.ttf);
+src: url(../assets/Font/Roboto-Regular.ttf);
 	
 }
 	
 @font-face{
 font-family: roboto; 
 font-weight: bold;
-src: url(assets/Font/Roboto-Bold.ttf);
+src: url(../assets/Font/Roboto-Bold.ttf);
 }
 
 

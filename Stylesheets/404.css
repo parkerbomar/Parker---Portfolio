@@ -245,7 +245,7 @@ div.desc {
 
 
 .hero6-image {
- background-image:url(assets/atl.jpg);
+ background-image:url(../assets/atl.jpg);
     height: 350px;
     background-position: center;
     background-repeat: no-repeat;
@@ -332,14 +332,14 @@ background-color: #3D4B72;
 
 @font-face{
 	font-family: roboto; 
-src: url(assets/Font/Roboto-Regular.ttf);
+src: url(../assets/Font/Roboto-Regular.ttf);
 	
 }
 	
 @font-face{
 font-family: roboto; 
 font-weight: bold;
-src: url(assets/Font/Roboto-Bold.ttf);
+src: url(../assets/Font/Roboto-Bold.ttf);
 }
 
 
