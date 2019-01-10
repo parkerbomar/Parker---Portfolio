@@ -252,7 +252,18 @@ padding:10px;
     position: relative;
 	margin-bottom: 10px;
 }
-.hero2-text, .hero1-text, .hero-text,.hero3-text,.hero4-text,.hero5-text {
+
+.hero6-image {
+ background-image:url("../assets/mainbridge.jpg");
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+	margin-bottom: 10px;
+}
+
+.hero2-text, .hero1-text, .hero-text,.hero3-text,.hero4-text,.hero5-text,.hero6-text {
   text-align: center;
   position: absolute;
   top: 50%;
@@ -264,7 +275,7 @@ padding:10px;
 }
 
 
-#hoverimg:hover, #hoverimg1:hover, #hoverimg2:hover , #hoverimg3:hover, #hoverimg5:hover{
+#hoverimg:hover, #hoverimg1:hover, #hoverimg2:hover , #hoverimg3:hover, #hoverimg5:hover, #hoverimg6:hover{
 	
 	opacity: .7;
 }
