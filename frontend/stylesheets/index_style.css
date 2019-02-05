@@ -11,6 +11,10 @@ html {
   box-sizing: inherit;
 }
 
+#stats{
+	
+	height: 100px;
+}
 body{
   
 	position: relative;
