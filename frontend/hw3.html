@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+<style media="screen">
+    body{text-align: center;}
+  </style>
+<body>
+	<h1>
+	team Roster</h1>
+	
+	<p> Please select a team Member 1-5</p>
+	
+	
+	<button type="button" name="button" onclick="getTeamMember()">Click</button>
+    
+    <select id="teamNo">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+        <option value="5">5</option>
+</select>
+    
+    
+	<p id="showTeamMate">
+	</body>
+	<script>
+		
+			
+		var team = [];
+		team[0] = {firstName:"parker", lastName:"Bomar", age:"26", hairColor:"brown", eyeColor:"blue"};
+		team[1] = {firstName:"Iegor", lastName:"Gutirez", age:"21", hairColor:"blond", eyeColor:"green"};
+		team[2] = {firstName:"Blake", lastName:"shefield", age:"28", hairColor:"brown", eyeColor:"green"};
+		team[3] = {firstName:"Lindsey", lastName:"BLankenbker", age:"28", hairColor:"red", eyeColor:"blue"};
+		team[4] = {firstName:"KAT", lastName:"Turnipseed", age:"23", hairColor:"blond", eyeColor:"brown"};
+		
+		
+	function getTeamMember(){
+		
+		var teamMemID = parseInt(document.getElementById('teamNo').value);
+		
+		if(teamMemID<1 || teamMemID>5){
+			alert("Please read again");
+			return false;
+			
+			
+		}
+	
+		
+		teamMemID -=1;
+		var fn = team[teamMemID].firstName;
+		var ln = team[teamMemID].lastName;
+		var age = team[teamMemID].age;
+		var hc = team[teamMemID].hairColor;
+	var ec = team[teamMemID].eyeColor;
+        
+				var member= "our team member #" + parseInt(teamMemID +1) + " is:<br><br> " + fn + " "+ln + ". <br> " +" age: " + age + "  <br>  Hair: " + hc+ "   <br> Eye Color: " + ec;
+		document.getElementById('showTeamMate').innerHTML = member;
+		
+	}
+	// array
+	
+	</script>
+	
+
+</html>
