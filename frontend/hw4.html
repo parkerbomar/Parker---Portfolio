@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+	  <script language="JavaScript">
+    function showInputFN() {
+        document.getElementById('displayFN').innerHTML = 
+                    document.getElementById("firstName").value;
+    }
+	function showInputLN() {
+        document.getElementById('displayLN').innerHTML = 
+                    document.getElementById("lastName").value;
+    }
+	function showInputAGE() {
+        document.getElementById('displayAGE').innerHTML = 
+                    document.getElementById("age").value;
+    }
+	function showInputPN() {
+        document.getElementById('displayPN').innerHTML = 
+                    document.getElementById("playerNumber").value;
+    }
+	function showSelect() {
+        document.getElementById('displayPOS').innerHTML = 
+                    document.getElementById("position").value;
+    }
+
+	</script>
+<title>Parker _ Homework 4</title>
+
+	
+<link href="stylesheets/hw4.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div id="header"><h1>Spring Baseball Roster</h1></div>
+	<div id="subject">
+	<p> Fill out the form below to sign up:</p>
+	First Name:  <br>
+		<input type="text" name="" value="" id="firstName"><br> <br>
+	Last Name: <br> 
+		<input type="text" name="" value="" id="lastName"><br> <br>
+	Age: <br>
+		<input type="text" name="" value="" id="age"><br> <br>
+	Jersey Number: <br>
+		<input type="text" name="" value="" id="playerNumber"><br> <br>
+	Primary Position: 
+		<select name="position" id="position">
+  <option value="Catcher">Catcher</option>
+  <option value="Pitcher">Pitcher</option>
+  <option value="First base">First base</option>
+  <option value="Second base">Second base</option>
+  <option value="Third base">Third base</option>
+  <option value="Left field">Left field</option>
+  <option value="Center field">Center field</option>
+  <option value="Right field">Right field</option>
+	<option value="Short Stop">Short stop</option>
+		</select><br> <br>
+<button onClick="showInputFN();showInputLN();showInputAGE(); showInputPN();showSelect();" type="button" name="button">Update Roster </button>
+	<br> <br>
+ <div id="newplayer"><label>New Player:</label><br>
+ 	 <span id='displayFN'></span>
+ 	 <span id='displayLN'></span>
+	 <span id='displayAGE'></span>
+	 <span id='displayPN'></span>
+	 <span id='displayPOS'></span>
+		</div>
+ </div>
+</body>
+</html>

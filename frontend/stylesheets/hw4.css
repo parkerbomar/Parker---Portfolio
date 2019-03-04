@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#subject{
+	background: #23354A;  
+	color: white; 
+	font-family: arial;
+	text-align: Left;
+	margin-left: 10%;
+	margin-top: 5%;
+	
+	
+}
+
+#header{
+	background: #492223;  
+	color: white; 
+	font-family: arial;
+	text-align: center;
+	padding: 20px;
+	
+
+	
+}
+
+button{
+	background-color: #492223; 
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    font-size: 16px;
+    margin: 20px;
+    cursor: pointer;
+	border-radius: 5px;
+	
+}
+.button:hover{
+    background-color: #C14E4E; 
+}
+
+body{
+	
+		background: #23354A;
+}
+
+h1 {
+	padding-top:40px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-align: Left;
+	
+	color: white;
+	font-size: 50px;
+}
+ @font-face { font-family: Athletic; src: url('Athletic.TTF'); } 
+/*#newplayer{
+	text-align:left;
+	padding-left: 50px;
+}
