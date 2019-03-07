@@ -13,7 +13,7 @@
 	<div id="formtime">
 	<div id="header"><h1>Spring Baseball Roster</h1></div>
 	<div id="subject">
-	<p> Fill out the form below to sign up:</p>
+	<p> Sign up for spring baseball:</p>
 	
     <input id="firstName" type="text" name="" placeholder="first name"> <br> <br>
     <input id="lastName" type="text" name="" placeholder="last name"><br> <br>
@@ -30,17 +30,11 @@
 </body>
 	
 	  <script>
-    //  script here
 
-    //  array declaration
         var team = [];
 
         function sendPlayerInfo(){
-            //var fn = document.getElementById('firstName').value;
-            //var ln = document.getElementById('lastName').value;
-            //var age = document.getElementById('playerAge').value;
-            //var pn = document.getElementById('playerNo').value;
-            //var fp = document.getElementById('fieldPos').value;
+          
 
             var thisPlayer = {
               firstName:document.getElementById('firstName').value,
@@ -51,18 +45,10 @@
             };
 
             team.push(thisPlayer);
-
-            //  displayRoster(thisPlayer);
-                loopRoster(team);
-            //  alert(team[0].firstName);
+loopRoster(team);
+           
           }
-          //  STRING BUILDER WAY
-          /*    function displayRoster(newPlayer)
-              {
-                  document.getElementById('roster').innerHTML += newPlayer.firstName + "<br>";
-              }
-*/
-          //  ARRAY WITH Loops
+       
               function loopRoster(teamArray)
               {
                   document.getElementById('roster').innerHTML = "Roster <br>";
