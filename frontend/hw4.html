@@ -2,29 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-	  <script language="JavaScript">
-    function showInputFN() {
-        document.getElementById('displayFN').innerHTML = 
-                    document.getElementById("firstName").value;
-    }
-	function showInputLN() {
-        document.getElementById('displayLN').innerHTML = 
-                    document.getElementById("lastName").value;
-    }
-	function showInputAGE() {
-        document.getElementById('displayAGE').innerHTML = 
-                    document.getElementById("age").value;
-    }
-	function showInputPN() {
-        document.getElementById('displayPN').innerHTML = 
-                    document.getElementById("playerNumber").value;
-    }
-	function showSelect() {
-        document.getElementById('displayPOS').innerHTML = 
-                    document.getElementById("position").value;
-    }
 
-	</script>
 <title>Parker _ Homework 4</title>
 
 	
@@ -32,38 +10,71 @@
 </head>
 
 <body>
+	<div id="formtime">
 	<div id="header"><h1>Spring Baseball Roster</h1></div>
 	<div id="subject">
 	<p> Fill out the form below to sign up:</p>
-	First Name:  <br>
-		<input type="text" name="" value="" id="firstName"><br> <br>
-	Last Name: <br> 
-		<input type="text" name="" value="" id="lastName"><br> <br>
-	Age: <br>
-		<input type="text" name="" value="" id="age"><br> <br>
-	Jersey Number: <br>
-		<input type="text" name="" value="" id="playerNumber"><br> <br>
-	Primary Position: 
-		<select name="position" id="position">
-  <option value="Catcher">Catcher</option>
-  <option value="Pitcher">Pitcher</option>
-  <option value="First base">First base</option>
-  <option value="Second base">Second base</option>
-  <option value="Third base">Third base</option>
-  <option value="Left field">Left field</option>
-  <option value="Center field">Center field</option>
-  <option value="Right field">Right field</option>
-	<option value="Short Stop">Short stop</option>
-		</select><br> <br>
-<button onClick="showInputFN();showInputLN();showInputAGE(); showInputPN();showSelect();" type="button" name="button">Update Roster </button>
-	<br> <br>
- <div id="newplayer"><label>New Player:</label><br>
- 	 <span id='displayFN'></span>
- 	 <span id='displayLN'></span>
-	 <span id='displayAGE'></span>
-	 <span id='displayPN'></span>
-	 <span id='displayPOS'></span>
+	
+    <input id="firstName" type="text" name="" placeholder="first name"> <br> <br>
+    <input id="lastName" type="text" name="" placeholder="last name"><br> <br>
+    <input id="playerAge" type="text" name="" placeholder="player age"><br> <br>
+    <input id="playerNo" type="text" name="" placeholder="player number"><br> <br>
+    <input id="fieldPos" type="text" name="" placeholder="field position"><br> <br>
+    <button id="sendPlayerInfo" type="button" name="button" onclick="sendPlayerInfo()">Add Player!</button>
+    <p id="roster">Roster:<br><br>
+
+    </p>
+</div>
 		</div>
- </div>
+ 
 </body>
+	
+	  <script>
+    //  script here
+
+    //  array declaration
+        var team = [];
+
+        function sendPlayerInfo(){
+            //var fn = document.getElementById('firstName').value;
+            //var ln = document.getElementById('lastName').value;
+            //var age = document.getElementById('playerAge').value;
+            //var pn = document.getElementById('playerNo').value;
+            //var fp = document.getElementById('fieldPos').value;
+
+            var thisPlayer = {
+              firstName:document.getElementById('firstName').value,
+              lastName:document.getElementById('lastName').value,
+              playerAge:document.getElementById('playerAge').value,
+              playerNo:document.getElementById('playerNo').value,
+              fieldPos:document.getElementById('fieldPos').value
+            };
+
+            team.push(thisPlayer);
+
+            //  displayRoster(thisPlayer);
+                loopRoster(team);
+            //  alert(team[0].firstName);
+          }
+          //  STRING BUILDER WAY
+          /*    function displayRoster(newPlayer)
+              {
+                  document.getElementById('roster').innerHTML += newPlayer.firstName + "<br>";
+              }
+*/
+          //  ARRAY WITH Loops
+              function loopRoster(teamArray)
+              {
+                  document.getElementById('roster').innerHTML = "Roster <br>";
+                  for(i=0;i<teamArray.length;i++)
+                  {
+                      document.getElementById('roster').innerHTML += teamArray[i].firstName + " ";
+					  document.getElementById('roster').innerHTML += teamArray[i].lastName + " ";
+					  document.getElementById('roster').innerHTML += teamArray[i].playerAge + " ";
+					  document.getElementById('roster').innerHTML += teamArray[i].playerNo + " ";
+					  document.getElementById('roster').innerHTML += teamArray[i].fieldPos + "<br>";
+                  }
+              }
+
+  </script>
 </html>

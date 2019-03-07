@@ -5,8 +5,7 @@
 	background: #23354A;  
 	color: white; 
 	font-family: arial;
-	text-align: Left;
-	margin-left: 10%;
+	text-align:  center;
 	margin-top: 5%;
 	
 	
@@ -44,9 +43,9 @@ body{
 }
 
 h1 {
-	padding-top:40px;
+
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-	text-align: Left;
+	text-align: center;
 	
 	color: white;
 	font-size: 50px;
