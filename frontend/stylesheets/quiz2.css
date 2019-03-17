@@ -1,0 +1,82 @@
+@charset "UTF-8";
+body{
+	background-image: url("../../assets/mainbridge.jpg")
+}
+
+#main{
+	font-family: arial;
+	text-align:  center;
+	
+	color: #302F2F;
+	margin: 0 auto;
+	margin-top: 5%;
+padding-top: 1%;
+width: 500px;
+height: 60%;
+border-radius: 8px;
+border: none;
+box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.8);
+background-color: #F1F1F1;
+	}
+
+#main2{
+	font-family: arial;
+	text-align:  center;
+
+	color: #302F2F;
+	margin: 0 auto;
+	margin-top: 2%;
+width: 500px;
+height: 60%;
+border-radius: 8px;
+border: none;
+box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.8);
+background-color: #F1F1F1;	
+	
+}
+
+.arraycolumns{
+	margin-top: 10px;
+	  display: flex;
+  justify-content: center;
+	
+ 
+}
+.arraycolumns > div {
+  background-color: #f1f1f1;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 55px;
+  font-size: 20px;
+	border-radius: 5px;
+border: none;
+
+	
+}
+
+input {
+margin-top: 3%;
+width: 20%;
+height: 28px;
+border-radius: 5px;
+border: none;
+box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+padding-left: 3%;
+padding-right: 3%;
+font-size: 14px;
+}
+button{
+	background-color: lightblue; 
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    font-size: 16px;
+    margin: 20px;
+    cursor: pointer;
+	border-radius: 5px;
+	
+}
+button:hover{
+    background-color: #C14E4E; 
+}

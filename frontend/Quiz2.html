@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Bomar - Quiz 2</title>
+<link href="stylesheets/quiz2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div class="bg-image"></div>
+	
+	
+	<div id="main">
+	<div id="header"><h1>Checkout Total</h1></div>
+	
+	<p> Insert Product info:</p>
+	
+    <input id="productName" type="text" name="" placeholder="Product"> <br> <br>
+    <input id="productPrice" type="text" name="" placeholder= "Price"><br> <br>
+		  <button id="addItem" type="button" name="button" onclick="items(), thePrices()">Add Item</button> 
+		
+		  <button id="calcTax" type="button" name="button" onclick="taxes()">Calculate Tax</button>
+	</div>
+		<div id="main2">
+		
+		<div class="arraycolumns">
+		<br>
+			
+		  <div>Item:
+			<br>
+			<p id="itemColumn"> </p>
+			</div>
+ 		<div style="align-self: center">Total:
+			<br>
+			<p id="totalColumn"> </p>
+			</div>
+			
+		</div>
+		</div>
+		
+		
+</body>
+	
+<script>
+	    var quiz2 = [];
+		var	priceArray = [];
+		var taxAmount = .07;
+	
+        function items()
+	{
+			var price=parseFloat(document.getElementById('productPrice').value);
+		
+		
+			 var itemList = {
+             productName:document.getElementById('productName').value,
+              price
+			 };
+	
+		          quiz2.push(itemList);
+loopArray(quiz2);
+           
+          }
+       
+     	function loopArray(itemArray)
+              {
+                 document.getElementById('itemColumn').innerHTML = "";
+                  for(i=0;i<itemArray.length;i++)
+                  {
+                      document.getElementById('itemColumn').innerHTML += itemArray[i].productName + " $";
+					  document.getElementById('itemColumn').innerHTML += itemArray[i].price.toFixed(2) + "<br>";
+                  }
+              }
+	
+	    function thePrices()
+	{
+		var price1=parseFloat(document.getElementById('productPrice').value);
+
+			
+		     priceArray.push(price1);  
+       
+              }
+	
+	
+	
+
+function getsum(priceArray)
+    {
+		
+		
+		   var thisisit = 0;
+        for(i=0;i<priceArray.length;i++)
+        {
+          
+              thisisit += priceArray[i];
+          
+        }
+		
+		
+		var thisistax = thisisit * 1.07;
+		var taxing = thisisit * .07;
+	thisisit = thisisit.toFixed(2);
+		thisistax= thisistax.toFixed(2);
+		taxing=taxing.toFixed(2);
+		
+		var stringrtest = "Total: $" + thisisit + "<br />" + " tax - 7%: $" + taxing + "<br />" + " Total after tax: $" + thisistax;
+   return stringrtest;
+    }
+	
+	function taxes(){	
+		
+		var finalstring = getsum(priceArray);
+		 document.getElementById('totalColumn').innerHTML = finalstring ;
+	
+	}
+
+</script>
+	
+	
+</html>
