@@ -2,6 +2,12 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
 
 
+#main {width: 100%; padding:0;}
+
+.margin-top-10 {padding-top:10px;}
+.margin-bot-10 {padding-bottom:10px;}
+
+
 
 /* Text and stuff */
 #parallaxfinal h1 {
@@ -21,15 +27,14 @@
     color:white;
     font-weight:400;
     text-transform:uppercase;
-    z-index:10; 
-    opacity:.9;
+    z-index:99; 
+    opacity:.8;
 }
 #parallaxfinal h3 {
     font-family:'Oswald', sans-serif;
     font-size:20px; 
     line-height:0;
     font-weight:400;
-    letter-spacing:8px;
     text-transform: uppercase;
     color:black;
     
@@ -78,12 +83,35 @@
     letter-spacing:8px;
 }
 
+.nav{ 
+text-align:center;
+ font-family: 'Source Sans Pro', sans-serif; 
+    padding-bottom: 20px;
+}
+
+.nav a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 5px;
+}
+
+.nav a:hover {
+  background-color: #3b8595;
+  color: white;
+}
+
+
+
 /* WRITING AREA */
 #parallaxfinal .block {
     background: white;
     padding: 60px; 
-    width:820px; 
-    margin:0 auto;
+    width:80%; 
+    margin:auto;
     text-align:justify;
 }
 #parallaxfinal .block-gray {
@@ -148,7 +176,7 @@
     overflow: hidden;
     position: relative; 
     width: 100%;
-    background-image: url(https://images.pexels.com/photos/356378/pexels-photo-356378.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-image: url(https://images.pexels.com/photos/1586948/pexels-photo-1586948.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-attachment: fixed;
     background-size: cover;
     -moz-background-size: cover;
@@ -228,3 +256,30 @@
     letter-spacing:5px;
     text-decoration: underline;
     color: white;
+}
+    
+    /* Media Queries */
+/**************************/
+@media only screen and (max-width: 959px) and (min-width: 768px) {
+  #parallaxfinal .block {padding: 40px; width:620px;}
+}
+@media only screen and (max-width: 767px) {
+  #parallaxfinal .block {padding: 30px; width:420px;}
+  #parallaxfinal .block {padding: 30px;}
+  #parallaxfinal .parallax-one, #parallaxfinal .parallax-two, #parallaxfinal .parallax-three {padding-top:100px; padding-bottom:100px;}
+    .nav {
+text-align:center;
+ font-family: 'Source Sans Pro', sans-serif; 
+    padding-bottom: 20px;
+}
+
+.nav a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+}
+@media only screen and (max-width: 479px) {
+  #parallaxfinal .block {padding: 30px 15px; width:290px;}
+}
