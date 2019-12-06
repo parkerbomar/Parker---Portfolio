@@ -64,8 +64,12 @@ function scrollFX()
 			}
 	
 			// Direction Animate
-			var transform = "translate3d("+leftVal+",0,0)"; // Default Left
+			var transform = ""; // Default None
 	
+			if (targetObj.is('[class*="scroll-fx-left-'+FXState+'"]')) // Left
+			{
+				transform = "translate3d("+leftVal+",0,0)";
+			}
 			if (targetObj.is('[class*="scroll-fx-right-'+FXState+'"]')) // Right
 			{
 				transform = "translate3d("+rightVal+",0,0)";
