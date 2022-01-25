@@ -514,7 +514,7 @@
 	<image:title>Secondary Persona</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>pbomar.com/img/horizon%20wire.png</image:loc>
+	<image:loc>pbomar.com/img/horizon%20wirev2.jpg</image:loc>
 	<image:title>horizon wire</image:title>
 	</image:image>
 	<image:image>
@@ -530,12 +530,20 @@
 	<image:title>dash horizon</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>pbomar.com/img/view.png</image:loc>
-	<image:title>view</image:title>
+	<image:loc>pbomar.com/img/view%20Before.png</image:loc>
+	<image:title>view Before</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>pbomar.com/img/view%20Bid%20tabs%20expanded.png</image:loc>
-	<image:title>view Bid tabs expanded</image:title>
+	<image:loc>pbomar.com/img/view2.png</image:loc>
+	<image:title>view2</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/figgy%20board%202.jpg</image:loc>
+	<image:title>figgy board 2</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/style.jpg</image:loc>
+	<image:title>style</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>pbomar.com/img/logo.png</image:loc>
@@ -554,7 +562,7 @@
 	<image:title>placeholder image-sq</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>pbomar.com/img/view2.png</image:loc>
+	<image:loc>pbomar.com/img/collapsed.png</image:loc>
 	<image:title>placeholder image-sq</image:title>
 	</image:image>
 	<image:image>
@@ -562,11 +570,11 @@
 	<image:title>placeholder image-sq</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>pbomar.com/img/Contractor.png</image:loc>
+	<image:loc>pbomar.com/img/view.png</image:loc>
 	<image:title>placeholder image-sq</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>pbomar.com/img/list.png</image:loc>
+	<image:loc>pbomar.com/img/list%20map.png</image:loc>
 	<image:title>placeholder image-sq</image:title>
 	</image:image>
 	<image:image>
