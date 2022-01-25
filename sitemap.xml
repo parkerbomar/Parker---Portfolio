@@ -1,62 +1,585 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
-<loc>pbomar.com</loc>
-<lastmod>2020-10-23</lastmod>
-<changefreq>Weekly</changefreq>
-<priority>1.0</priority>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url>
+	<loc>pbomar.com</loc>
+	<lastmod>2022-01-25</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>1.0</priority>
+	<image:image>
+	<image:loc>pbomar.com/img/PBlogo.png</image:loc>
+	<image:title>logo</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/mac.png</image:loc>
+	<image:title>White Clayfit</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/logo.png</image:loc>
+	<image:title>Picture1</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Flat-front-shot@2x.png</image:loc>
+	<image:title>Flat front-shot@2x</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Icon.png</image:loc>
+	<image:title>Icon</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Mockup-high.png</image:loc>
+	<image:title>Mockup high</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/cityquest-logo.png</image:loc>
+	<image:title>fitlocklogo</image:title>
+	</image:image>
 </url>
 <url>
-<loc>pbomar.com/ethnography</loc>
-<lastmod>2020-10-23</lastmod>
-<changefreq>Weekly</changefreq>
-<priority>0.5</priority>
+	<loc>pbomar.com/ethnography/</loc>
+	<lastmod>2022-01-25</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>pbomar.com/img/PBlogo.png</image:loc>
+	<image:title>logo</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/sliceup.png</image:loc>
+	<image:title>sliceup</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/slicedown.png</image:loc>
+	<image:title>slicedown</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Untitled-6.png</image:loc>
+	<image:title>Untitled 6</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/software.jpg</image:loc>
+	<image:title>software</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Untitled-32.jpg</image:loc>
+	<image:title>Untitled 32</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/3d%20printers.jpg</image:loc>
+	<image:title>3d printers</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/designii.jpg</image:loc>
+	<image:title>designii</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/2018-11-15%2017.21.03.jpg</image:loc>
+	<image:title>2018 11-15 17.21.03</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/2018-11-15%2017.18.302222.jpg</image:loc>
+	<image:title>2018 11-15 17.18.302222</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/2018-11-15%2017.19.21.jpg</image:loc>
+	<image:title>2018 11-15 17.19.21</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Untitled-1.jpg</image:loc>
+	<image:title>Untitled 1</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Untitled-6a.png</image:loc>
+	<image:title>Untitled 6a</image:title>
+	</image:image>
 </url>
 <url>
-<loc>pbomar.com/fitlockapp</loc>
-<lastmod>2020-10-23</lastmod>
-<changefreq>Weekly</changefreq>
-<priority>0.5</priority>
+	<loc>pbomar.com/fitlockapp/</loc>
+	<lastmod>2022-01-25</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>pbomar.com/img/PBlogo.png</image:loc>
+	<image:title>logo</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/fitlocklogo.png</image:loc>
+	<image:title>fitlocklogo</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/fitlock-phone1.png</image:loc>
+	<image:title>fitlock phone1</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/sliceup.png</image:loc>
+	<image:title>sliceup</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/slicedown.png</image:loc>
+	<image:title>slicedown</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/fitlock-persona2.jpg</image:loc>
+	<image:title>fitlock persona2</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/fitlock-persona1.jpg</image:loc>
+	<image:title>fitlock persona1</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/fitlock-persona3.jpg</image:loc>
+	<image:title>fitlock persona3</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/keypath.jpg</image:loc>
+	<image:title>keypath</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/context-01.png</image:loc>
+	<image:title>context 01</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/context-03.png</image:loc>
+	<image:title>context 03</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/context-02.png</image:loc>
+	<image:title>context 02</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/INTRO%20–%204.png</image:loc>
+	<image:title>INTRO – 4</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/INTRO%20–%203.png</image:loc>
+	<image:title>INTRO – 3</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/INTRO%20–%202.png</image:loc>
+	<image:title>INTRO – 2</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/wireframe.png</image:loc>
+	<image:title>wireframe</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Apple%20iPhone%20X%20Space%20Grey-3-squashed.png</image:loc>
+	<image:title>Apple iPhone X Space Grey 3-squashed</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Apple%20iPhone%20X%20Space%20Grey-2-squashed.png</image:loc>
+	<image:title>Apple iPhone X Space Grey 2-squashed</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Apple%20iPhone%20X%20Space%20Grey-squashed.png</image:loc>
+	<image:title>Apple iPhone X Space Grey squashed</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Apple%20iPhone%20X%20Space%20Grey-1-squashed.png</image:loc>
+	<image:title>Apple iPhone X Space Grey 1-squashed</image:title>
+	</image:image>
 </url>
 <url>
-<loc>pbomar.com/cpr</loc>
-<lastmod>2020-10-23</lastmod>
-<changefreq>Weekly</changefreq>
-<priority>0.5</priority>
+	<loc>pbomar.com/cpr/</loc>
+	<lastmod>2022-01-25</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>pbomar.com/img/PBlogo.png</image:loc>
+	<image:title>logo</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Picture1.png</image:loc>
+	<image:title>Picture1</image:title>
+	</image:image>
 </url>
 <url>
-<loc>pbomar.com/bouquet</loc>
-<lastmod>2020-10-23</lastmod>
-<changefreq>Weekly</changefreq>
-<priority>0.5</priority>
+	<loc>pbomar.com/bouquet/</loc>
+	<lastmod>2022-01-25</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>pbomar.com/img/PBlogo.png</image:loc>
+	<image:title>logo</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Icon.png</image:loc>
+	<image:title>Icon</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Bouquet%20logo@2x.png</image:loc>
+	<image:title>Bouquet logo@2x</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Group%20677-squashed.png</image:loc>
+	<image:title>Group 677 squashed</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/sliceup1.png</image:loc>
+	<image:title>sliceup1</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/slicedown1.png</image:loc>
+	<image:title>slicedown1</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/zola-logo.jpg</image:loc>
+	<image:title>zola logo</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/the-knot-logo.jpg</image:loc>
+	<image:title>the knot-logo</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/wedding-wire-logo.jpg</image:loc>
+	<image:title>wedding wire-logo</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/pintrest-logo.jpg</image:loc>
+	<image:title>pintrest logo</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/sliceup2.png</image:loc>
+	<image:title>sliceup2</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/slicedown2.png</image:loc>
+	<image:title>slicedown2</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Affinity-map-1.jpg</image:loc>
+	<image:title>Affinity map-1</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Primary-Persona.jpg</image:loc>
+	<image:title>Primary Persona</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Secondary-Persona.jpg</image:loc>
+	<image:title>Secondary Persona</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/info-high.jpg</image:loc>
+	<image:title>info high</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Visuals.png</image:loc>
+	<image:title>Visuals</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/XD-wireframe.jpg</image:loc>
+	<image:title>XD wireframe</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/OnBoarding%20–%2012.png</image:loc>
+	<image:title>OnBoarding – 12</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Settings.png</image:loc>
+	<image:title>Settings</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Hub%20–%203.png</image:loc>
+	<image:title>Hub – 3</image:title>
+	</image:image>
 </url>
 <url>
-<loc>pbomar.com/photos</loc>
-<lastmod>2020-10-23</lastmod>
-<changefreq>Weekly</changefreq>
-<priority>0.5</priority>
+	<loc>pbomar.com/photos/</loc>
+	<lastmod>2022-01-25</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>pbomar.com/img/PBlogo.png</image:loc>
+	<image:title>logo</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Screen%20Shot%202012-05-11%20at%201.43.31%20AM-squashed.png</image:loc>
+	<image:title>Screen Shot 2012 05-11 at 1.43.31 AM-squashed</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/placeholder-image-sq.png</image:loc>
+	<image:title>placeholder image-sq</image:title>
+	</image:image>
 </url>
 <url>
-<loc>pbomar.com/404</loc>
-<lastmod>2020-10-23</lastmod>
-<changefreq>Weekly</changefreq>
-<priority>0.5</priority>
+	<loc>pbomar.com/404/</loc>
+	<lastmod>2022-01-25</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>pbomar.com/img/PBlogo.png</image:loc>
+	<image:title>logo</image:title>
+	</image:image>
 </url>
 <url>
-<loc>pbomar.com/about</loc>
-<lastmod>2020-10-23</lastmod>
-<changefreq>Weekly</changefreq>
-<priority>0.5</priority>
+	<loc>pbomar.com/about/</loc>
+	<lastmod>2022-01-25</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>pbomar.com/img/PBlogo.png</image:loc>
+	<image:title>logo</image:title>
+	</image:image>
 </url>
 <url>
-<loc>pbomar.com/cityquest</loc>
-<lastmod>2020-10-23</lastmod>
-<changefreq>Weekly</changefreq>
-<priority>0.5</priority>
+	<loc>pbomar.com/cityquest/</loc>
+	<lastmod>2022-01-25</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>pbomar.com/img/PBlogo.png</image:loc>
+	<image:title>logo</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/cityquest-logo.png</image:loc>
+	<image:title>CityQuest Icon</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/CityQuest-words.png</image:loc>
+	<image:title>CityQuest Logo</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Cityquest-s10-Mockup.png</image:loc>
+	<image:title>Group 677 squashed</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/slicecity.png</image:loc>
+	<image:title>sliceup1</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/slicecitydown.png</image:loc>
+	<image:title>slicedown1</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Assumption%20copy.jpg</image:loc>
+	<image:title>software</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Unknown2.png</image:loc>
+	<image:title>Primary Persona</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Unknown.png</image:loc>
+	<image:title>Secondary Persona</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Evidence-Assumption%20Worksheet%20copy.jpg</image:loc>
+	<image:title>software</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Backlog.png</image:loc>
+	<image:title>software</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Francis_Sprint1.jpg</image:loc>
+	<image:title>placeholder image-sq</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/McBride_Sprint1.jpg</image:loc>
+	<image:title>placeholder image-sq</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Bomar_Sprint1.jpg</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/User%20Testing%203.jpg</image:loc>
+	<image:title>User Testing 3</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/usertesting2.jpg</image:loc>
+	<image:title>usertesting2</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Mockup-low.png</image:loc>
+	<image:title>OnBoarding – 12</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Mockup-med.png</image:loc>
+	<image:title>Settings</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Mockup-high.png</image:loc>
+	<image:title>Hub – 3</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/slicecity%20copy.png</image:loc>
+	<image:title>sliceup2</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/slicecitydown%20copy.png</image:loc>
+	<image:title>slicedown2</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/paper3.jpg</image:loc>
+	<image:title>paper3</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Usertestingweek3.jpg</image:loc>
+	<image:title>Usertestingweek3</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Usertestingweek4.jpg</image:loc>
+	<image:title>Usertestingweek4</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Visuals-cityquest.png</image:loc>
+	<image:title>Visuals</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Mockup-high.png</image:loc>
+	<image:title>Mockup high</image:title>
+	</image:image>
 </url>
 <url>
-<loc>pbomar.com/latest</loc>
-<lastmod>2020-10-23</lastmod>
-<changefreq>Weekly</changefreq>
-<priority>0.5</priority>
+	<loc>pbomar.com/latest/</loc>
+	<lastmod>2022-01-25</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>pbomar.com/img/PBlogo.png</image:loc>
+	<image:title>logo</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/PBlogo1.png</image:loc>
+	<image:title>CityQuest Icon</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/MacBook-HDE-1.png</image:loc>
+	<image:title>slide 1</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/MacBook-HDE-2.png</image:loc>
+	<image:title>slide 2</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/MacBook-HDE-3.png</image:loc>
+	<image:title>slide 3</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Hashload.png</image:loc>
+	<image:title>slide 1</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/hashload2.png</image:loc>
+	<image:title>slide 2</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/hashload3.png</image:loc>
+	<image:title>slide 3</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/flight2.png</image:loc>
+	<image:title>slide 1</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/flight3.png</image:loc>
+	<image:title>slide 2</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/flighthash.png</image:loc>
+	<image:title>slide 3</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>pbomar.com/horizon/</loc>
+	<lastmod>2022-01-25</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>pbomar.com/img/PBlogo.png</image:loc>
+	<image:title>logo</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/logo.png</image:loc>
+	<image:title>Icon</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Group%2079.png</image:loc>
+	<image:title>Group 677 squashed</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/mapping2.jpg</image:loc>
+	<image:title>Afinity diagram showing feature brainstorming sticky notes</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/quote.png</image:loc>
+	<image:title>quote</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/John-Persona.png</image:loc>
+	<image:title>Primary Persona</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Ed-Persona.png</image:loc>
+	<image:title>Secondary Persona</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/horizon%20wire.png</image:loc>
+	<image:title>horizon wire</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/colors-horizon.png</image:loc>
+	<image:title>colors horizon</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/MacBook%20Pro%20-%201.png</image:loc>
+	<image:title>MacBook Pro   1</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/dash-horizon.png</image:loc>
+	<image:title>dash horizon</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/view.png</image:loc>
+	<image:title>view</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/view%20Bid%20tabs%20expanded.png</image:loc>
+	<image:title>view Bid tabs expanded</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/logo.png</image:loc>
+	<image:title>logo</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Dash-%20Selected-alt.png</image:loc>
+	<image:title>colors horizon</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Report-Model.png</image:loc>
+	<image:title>placeholder image-sq</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Admin-%20Global%20Search.png</image:loc>
+	<image:title>placeholder image-sq</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/view2.png</image:loc>
+	<image:title>placeholder image-sq</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Roles.png</image:loc>
+	<image:title>placeholder image-sq</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/Contractor.png</image:loc>
+	<image:title>placeholder image-sq</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/list.png</image:loc>
+	<image:title>placeholder image-sq</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/list2.png</image:loc>
+	<image:title>placeholder image-sq</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>pbomar.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
 </url>
 </urlset>
